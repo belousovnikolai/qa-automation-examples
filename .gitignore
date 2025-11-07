@@ -1,0 +1,30 @@
+# Node.js
+**/node_modules/
+**/package-lock.json
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# Playwright specific
+**/test-results/
+**/playwright-report/
+**/blob-report/
+*.trace.zip
+*.zip
+*.jsonl
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
